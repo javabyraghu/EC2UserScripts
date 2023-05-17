@@ -2,7 +2,7 @@
 sudo yum update -y
 sudo yum install wget tree git -y
 cd /opt
-sudo yum install java-11-amazon-corretto-1:11.0.19+7-1.amzn2023.x86_64 -y
+sudo yum install java-11-amazon-corretto -y
 wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-7.8.zip
 sudo unzip sonarqube-7.8.zip
 sudo useradd sonar
