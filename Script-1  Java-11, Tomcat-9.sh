@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo yum update -y
 sudo yum install wget tree git -y
-sudo yum install java-11-amazon-corretto-1:11.0.19+7-1.amzn2023.x86_64 -y
+sudo yum install java-11-amazon-corretto -y
 sudo useradd -m -U -d /opt/tomcat tomcat
 cd /tmp
 wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.75/bin/apache-tomcat-9.0.75.tar.gz
